@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters in Tintin's World</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventures.html">Adventures</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Meet the Characters</h1>
+        <p>Get to know the iconic characters from Tintin's adventures.</p>
+    </header>
+    <section>
+        <!-- Snowy -->
+        <article>
+            <h2>Snowy</h2>
+            <img id="snowyImage" src="images/snowy.jpg" alt="Snowy" class="responsive">
+            <p>Snowy is Tintin's loyal fox terrier, always by his side through thick and thin.</p>
+            <button onclick="toggleVisibility('details1')">Read More</button>
+            <p id="details1" style="display:none;">Snowy, known as Milou in the original French version, is not only a faithful companion but also displays remarkable intelligence and bravery, often saving Tintin from perilous situations.</p>
+            <button onclick="toggleImageSize('snowyImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- Captain Haddock -->
+        <article>
+            <h2>Captain Haddock</h2>
+            <img id="haddockImage" src="images/haddock.jpg" alt="Captain Haddock" class="responsive">
+            <p>Captain Archibald Haddock is Tintin's fiery-tempered but loyal friend, known for his iconic curses and love of whiskey.</p>
+            <button onclick="toggleVisibility('details2')">Read More</button>
+            <p id="details2" style="display:none;">Captain Haddock inherited Marlinspike Hall and often joins Tintin on adventures, despite his grumbling.</p>
+            <button onclick="toggleImageSize('haddockImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- Professor Calculus -->
+        <article>
+            <h2>Professor Calculus</h2>
+            <img id="calculusImage" src="images/calculus.jpg" alt="Professor Calculus" class="responsive">
+            <p>Professor Cuthbert Calculus is a brilliant but eccentric inventor with hearing problems.</p>
+            <button onclick="toggleVisibility('details3')">Read More</button>
+            <p id="details3" style="display:none;">He invents groundbreaking devices like the Moon rocket, though his absent-mindedness often causes chaos.</p>
+            <button onclick="toggleImageSize('calculusImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- Bianca Castafiore -->
+        <article>
+            <h2>Bianca Castafiore</h2>
+            <img id="castafioreImage" src="images/castafiore.jpg" alt="Bianca Castafiore" class="responsive">
+            <p>The Milanese Nightingale, a world-famous opera singer with a voice that shatters glass.</p>
+            <button onclick="toggleVisibility('details4')">Read More</button>
+            <p id="details4" style="display:none;">Her dramatic entrances often complicate Tintin's adventures, much to Captain Haddock's dismay.</p>
+            <button onclick="toggleImageSize('castafioreImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- Thomson and Thompson -->
+        <article>
+            <h2>Thomson & Thompson</h2>
+            <img id="detectivesImage" src="images/detectives.jpg" alt="Thomson and Thompson" class="responsive">
+            <p>The bumbling twin detectives who never solve a case but always stick together.</p>
+            <button onclick="toggleVisibility('details5')">Read More</button>
+            <p id="details5" style="display:none;">Identical in appearance (except for their mustache shapes), they often inadvertently help Tintin crack mysteries.</p>
+            <button onclick="toggleImageSize('detectivesImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- General Alcazar -->
+        <article>
+            <h2>General Alcazar</h2>
+            <img id="alcazarImage" src="images/alcazar.jpg" alt="General Alcazar" class="responsive">
+            <p>A revolutionary leader from the fictional South American country of San Theodoros.</p>
+            <button onclick="toggleVisibility('details6')">Read More</button>
+            <p id="details6" style="display:none;">Known for his ever-changing alliances and comically chaotic leadership style.</p>
+            <button onclick="toggleImageSize('alcazarImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- Rastapopoulos -->
+        <article>
+            <h2>Roberto Rastapopoulos</h2>
+            <img id="rastapopoulosImage" src="images/rastapopoulos.jpg" alt="Rastapopoulos" class="responsive">
+            <p>Tintin's arch-nemesis, a ruthless criminal mastermind and film producer.</p>
+            <button onclick="toggleVisibility('details7')">Read More</button>
+            <p id="details7" style="display:none;">He appears in multiple adventures, orchestrating schemes ranging from art theft to human trafficking.</p>
+            <button onclick="toggleImageSize('rastapopoulosImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- Chang Chong-Chen -->
+        <article>
+            <h2>Chang Chong-Chen</h2>
+            <img id="changImage" src="images/chang.jpg" alt="Chang Chong-Chen" class="responsive">
+            <p>A young Chinese boy who becomes Tintin's loyal friend in *The Blue Lotus*.</p>
+            <button onclick="toggleVisibility('details8')">Read More</button>
+            <p id="details8" style="display:none;">Chang helps Tintin expose a dangerous opium-smuggling ring in Shanghai.</p>
+            <button onclick="toggleImageSize('changImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- Nestor -->
+        <article>
+            <h2>Nestor</h2>
+            <img id="nestorImage" src="images/nestor.jpg" alt="Nestor" class="responsive">
+            <p>The ever-patient butler of Marlinspike Hall, Captain Haddock's mansion.</p>
+            <button onclick="toggleVisibility('details9')">Read More</button>
+            <p id="details9" style="display:none;">Nestor calmly manages the chaos caused by Haddock, Calculus, and Tintin's adventures.</p>
+            <button onclick="toggleImageSize('nestorImage')">Toggle Image Size</button>
+        </article>
+
+        <!-- Jolyon Wagg -->
+        <article>
+            <h2>Jolyon Wagg</h2>
+            <img id="waggImage" src="images/wagg.jpg" alt="Jolyon Wagg" class="responsive">
+            <p>An overly enthusiastic insurance salesman who annoys Captain Haddock endlessly.</p>
+            <button onclick="toggleVisibility('details10')">Read More</button>
+            <p id="details10" style="display:none;">Wagg's relentless cheerfulness and terrible jokes make him one of Haddock's least favorite people.</p>
+            <button onclick="toggleImageSize('waggImage')">Toggle Image Size</button>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2025 Tintin Fan Club</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
