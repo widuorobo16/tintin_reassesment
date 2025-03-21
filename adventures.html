@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tintin's Adventures</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventures.html">Adventures</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Adventures of Tintin</h1>
+        <p>Discover some of Tintin's most thrilling escapades.</p>
+    </header>
+    <section>
+        <!-- Adventure 1 -->
+        <article>
+            <h2>The Secret of the Unicorn</h2>
+            <img id="adventure1" src="images/adventure1.jpg" alt="The Secret of the Unicorn" class="responsive">
+            <p>In this adventure, Tintin uncovers the mystery of a sunken treasure ship.</p>
+            <button onclick="toggleVisibility('synopsis1')">Read Synopsis</button>
+            <p id="synopsis1" style="display:none;">Tintin purchases a model ship that holds a clue to a hidden treasure. Alongside Captain Haddock, he faces numerous challenges to uncover the secret of the Unicorn.</p>
+            <button onclick="toggleImageSize('adventure1')">Toggle Image Size</button>
+        </article>
+
+        <!-- Adventure 2 -->
+        <article>
+            <h2>Explorers on the Moon</h2>
+            <img id="adventure2" src="images/adventure2.jpg" alt="Explorers on the Moon" class="responsive">
+            <p>Tintin and his friends become some of the first humans to set foot on the Moon.</p>
+            <button onclick="toggleVisibility('synopsis2')">Read Synopsis</button>
+            <p id="synopsis2" style="display:none;">In a groundbreaking journey, Tintin, Captain Haddock, and Professor Calculus travel to the Moon, facing unexpected dangers and making scientific discoveries.</p>
+            <button onclick="toggleImageSize('adventure2')">Toggle Image Size</button>
+        </article>
+
+        <!-- Adventure 3 -->
+        <article>
+            <h2>The Blue Lotus</h2>
+            <img id="adventure3" src="images/adventure3.jpg" alt="The Blue Lotus" class="responsive">
+            <p>Tintin investigates a dangerous opium-smuggling ring in China.</p>
+            <button onclick="toggleVisibility('synopsis3')">Read Synopsis</button>
+            <p id="synopsis3" style="display:none;">Tintin teams up with a young Chinese boy, Chang, to expose a criminal organization in Shanghai.</p>
+            <button onclick="toggleImageSize('adventure3')">Toggle Image Size</button>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2025 Tintin Fan Club</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

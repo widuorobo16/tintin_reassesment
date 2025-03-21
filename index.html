@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tintin's World</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventures.html">Adventures</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Welcome to Tintin's World</h1>
+        <p>Explore the adventures of the young reporter and his loyal dog, Snowy.</p>
+    </header>
+    <section>
+        <img id="tintinImage" src="images/tintin.jpg" alt="Tintin" class="responsive">
+        <p>Tintin is a young Belgian reporter known for his iconic quiff hairstyle and his fearless pursuit of the truth.</p>
+        <button onclick="toggleVisibility('biography')">Read More</button>
+        <p id="biography" style="display:none;">Throughout his journeys, Tintin travels to various continents, uncovering mysteries and fighting injustice, all while embodying bravery and integrity.</p>
+        <button onclick="toggleImageSize('tintinImage')">Toggle Image Size</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 Tintin Fan Club</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
